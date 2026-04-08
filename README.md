@@ -89,15 +89,15 @@
 
 - **Email**: gksmdk5094@gmail.com
 - **GitHub**: [https://github.com/ChaiTope](https://github.com/ChaiTope)  
-- **Portfolio**: [https://ChaiTope.dev](#) (준비 중)
-- **LinkedIn**: [https://www.linkedin.com/in/ChaiTope](#) (준비 중)
+- **BAEKJOON**: [https://www.acmicpc.net/user/gksmdk](https://www.acmicpc.net/user/gksmdk)
+- **SOLVED.AC**: [https://solved.ac/profile/gksmdk](https://solved.ac/profile/gksmdk)
 
 
 ---
 
 ## 🌟 기타 정보  
 
-- **취미**: 음악 감상, 게임, 독서  
+- **취미**: 음악 감상, 게임, 독서, 알고리즘 풀이
 - **관심사**: AI 기술, 클린 아키텍처, DevOps, 게임엔진 활용
 - **좌우명**: "기술의 발전과 나의 배움에는 끝이 없다."  
 
