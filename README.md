@@ -1,104 +1,143 @@
-# 👋 자기소개
+# ChaiYunSung
 
-안녕하세요!  
-풀스택 개발자 **채윤성**입니다.  
-끊임없이 공부하고 활용하는 **성장하는 개발자**가 제 목표이자 꿈입니다.
+안녕하세요. 백엔드 개발과 게임 개발을 함께 공부하고 있는 채윤성입니다.
+Java/Spring 기반 웹 프로젝트를 통해 서버 개발의 기본 흐름을 익혔고, 최근에는 Unity 2D로 탑뷰 액션 전투와 보스러시 구조를 프로토타이핑하며 게임 시스템 설계도 함께 공부하고 있습니다.
 
 ---
 
-## 🛠 기술 스택
+## About Me
 
-### **Frontend**
+* 컴퓨터공학 전공 기반으로 백엔드 개발과 게임 개발을 함께 공부하고 있습니다.
+* Java/Spring 기반 웹 애플리케이션 개발 경험
+* Unity 2D 탑뷰 액션 전투와 보스러시 구조 프로토타이핑 경험
+* 알고리즘 문제 풀이를 통한 자료구조/문제 해결 연습
+* 보안, 네트워크, 게임 시스템 설계에 관심
+
+---
+
+## Recent Focus
+
+### [Top-view Boss Rush Combat Prototype](https://github.com/ChaiTope/BossRushPrototype)
+
+Unity 2D 기반의 탑뷰 보스러시 전투 프로토타입입니다.
+완성형 게임이 아니라, 클래스별 전투 방식과 보스러시 진행 흐름이 실제 플레이 감각에서 어떻게 동작하는지 검증하기 위한 프로젝트입니다.
+
+* `MainMenu -> ClassSelect -> StageRoom -> BossArena` 흐름 구현
+* `Slash Fighter` / `Archer` 클래스 선택 구조
+* 근접 슬래시, 패링, 회피 기반 전투
+* 원거리 투사체, 차징샷, 쿨타임 UI
+* afterimage/trail 기반 전투 피드백
+* StageRoom 잡몹 처치 후 Portal을 통해 BossArena 진입
+* 패링 가능한 돌진 패턴과 회피가 필요한 Ground Slam 패턴 테스트
+
+---
+
+## Projects
+
+### Web / Backend
+
+#### [Blog Project](https://github.com/ChaiTope/blogs)
+
+React와 Spring Boot를 활용한 개인 블로그 프로젝트입니다.
+사용자 인증, 포스트 작성, 댓글, 이미지 업로드, 검색/필터링, 반응형 UI 등을 다룬 포트폴리오 성격의 웹 프로젝트입니다.
+
+**Tech:** React, Bootstrap, JavaScript, Spring Boot, MySQL, REST API, Postman
+
+#### [Community Boot](https://github.com/ChaiTope/comunity-boot)
+
+기존 Spring 기반 커뮤니티 프로젝트를 Spring Boot 구조로 옮겨보는 학습/전환 프로젝트입니다.
+
+**Tech:** Spring Boot 2.7, Spring Security, MyBatis, MySQL, JSP, Tiles, Lombok
+
+#### [Community](https://github.com/ChaiTope/community) / [KDT Community](https://github.com/ChaiTope/kdt-community)
+
+Spring MVC 기반 커뮤니티 웹 프로젝트입니다.
+회원/게시판 중심의 웹 애플리케이션 구조와 MySQL 연동, Spring Security, MyBatis 사용을 학습한 프로젝트입니다.
+
+**Tech:** Spring MVC, Spring Security, MyBatis, MySQL, JSP, Tiles, Maven
+
+#### [KDT Web](https://github.com/ChaiTope/kdtweb)
+
+Java Servlet/JSP 기반 커뮤니티 웹 페이지 학습 프로젝트입니다.
+
+**Tech:** Java, Servlet/JSP, JSTL, Maven
+
+### Game / Prototype
+
+#### [Topview Prototype](https://github.com/ChaiTope/Topview-Prototype)
+
+Unity 탑다운 액션 게임 구조를 학습하기 위한 초기 프로토타입입니다.
+최근 `BossRushPrototype` 작업의 이전 단계에 가까운 실험 프로젝트로 정리하고 있습니다.
+
+**Tech:** Unity, C#, 2D top-down action prototype
+
+#### [ChessWeb](https://github.com/ChaiTope/ChessWeb)
+
+온라인 체스 플레이 웹 사이트 프로젝트입니다.
+저장소 설명 기준으로 Stockfish 활용을 포함합니다.
+
+**Tech:** JavaScript, web chess, Stockfish
+
+### Algorithm
+
+#### [BaekJoon Python](https://github.com/ChaiTope/BaekJoon_Python)
+
+백준 문제 풀이를 기록한 알고리즘 학습 저장소입니다.
+현재는 Python 풀이를 중심으로 자료구조, 구현, 탐색, 정렬 등 기본기를 연습하고 있습니다.
+
+#### [Baekjoon Practice](https://github.com/ChaiTope/BackJoon)
+
+Java와 C로 일부 문제를 풀어보며 언어별 기본 문법과 알고리즘 풀이 방식을 연습했던 초기 학습용 저장소입니다.
+현재 주력 알고리즘 기록은 `BaekJoon Python` 저장소를 중심으로 관리하고 있습니다.
+
+---
+
+## Tech Stack
+
+### Backend
+
+![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?logo=springsecurity&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+
+### Frontend
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-![Jquery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=React&amp;logoColor=black)
-[![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)](https://redux.js.org/)
-[![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
 
-### **Backend**
+### Game Development
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?logo=springsecurity&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-6DB33F?logo=hibernate&logoColor=white)
-![Json](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&amp;logo=Spring&amp;logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&amp;logo=C&amp;logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&amp;logo=C%2B%2B&amp;logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
 
-### **Database**
+### Tools
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![AWS RDS](https://img.shields.io/badge/AWS%20RDS-232F3E?logo=amazonaws&logoColor=white)
-
-### **Tools**
-
-![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-purple?logo=visualstudio&logoColor=white)
-![VS Code](https://img.shields.io/badge/IDE-VS%20Code-blue?logo=visualstudiocode&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-orange?logo=intellijidea&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![figma](https://img.shields.io/badge/figma-F24E1E?logo=figma&logoColor=black)
-![googlesheets](https://img.shields.io/badge/googlesheets-34A853?logo=googlesheets&logoColor=white)
-![googlecloud](https://img.shields.io/badge/googlecloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![PostMan](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white)
-![kakao](https://img.shields.io/badge/kakao%20API-FFCD00?style=flat-square&logo=kakao&logoColor=black)
-![naver](https://img.shields.io/badge/naver%20API-03C75A?style=flat-square&logo=naver&logoColor=white)
-![google](https://img.shields.io/badge/google%20API-4285F4?style=flat-square&logo=google&logoColor=white)
-![FireBase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&amp;logo=firebase&amp;logoColor=black)
-![Font Awesome](https://img.shields.io/badge/fontawesome-538DD7?style=flat-square&logo=fontawesome&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 
 ---
 
-## 📚 학습 및 경험  
+## Currently Learning
 
-- **[학력] 강원대학교 컴퓨터공학과**
-  - 알고리즘, 데이터베이스, 운영체제 등 CS 기초 학습
-  - 빅데이터 분석 및 처리 기술 학습: 데이터 수집, 분석, 시각화를 통해 인사이트 도출
-  - 개인 프로젝트: 디스코드 봇 개발 (Python, Discord API 활용)
-- **[동아리] 강원대학교 개발 동아리 '영하나(Zero One)'**
-  - 알고리즘 스터디: 주간 문제 풀이와 코드 리뷰
-- **[교육] 풀스택 자바 개발자 과정**
-  - Spring Boot를 이용한 REST API 개발
-  - MySQL을 활용한 데이터베이스 설계 및 최적화
-  - HTML, CSS, JavaScript를 활용한 프론트엔드 개발
-  - Bootstrap을 활용한 반응형 UI 설계
-  - Spring Security를 이용한 사용자 인증 및 권한 관리
-  - JPA/Hibernate를 활용한 데이터베이스 연동 및 쿼리 최적화
-  - Postman으로 API 테스트 및 Swagger로 문서화
-  - Git/GitHub를 활용한 소스 코드 버전 관리 및 협업
-  - RESTful API 설계 및 구현 경험
+* Spring Boot 기반 백엔드 구조 설계
+* REST API와 데이터베이스 연동
+* Unity 2D 전투 시스템 프로토타이핑
+* 게임 전투 피드백, 클래스 구조, 보스 패턴 설계
+* 알고리즘 문제 풀이와 자료구조 복습
 
 ---
 
-## 🚀 비전과 목표  
+## Links
 
-- 사용자 경험을 최우선으로 생각하는 개발자  
-- **확장 가능하고 유지보수하기 쉬운 코드**를 작성하는 것에 집중  
-- 새로운 기술을 배우며 꾸준히 성장하기  
-
----
-
-## 📞 연락처 및 링크  
-
-- **Email**: gksmdk5094@gmail.com
-- **GitHub**: [https://github.com/ChaiTope](https://github.com/ChaiTope)  
-- **BAEKJOON**: [https://www.acmicpc.net/user/gksmdk](https://www.acmicpc.net/user/gksmdk)
-- **SOLVED.AC**: [https://solved.ac/profile/gksmdk](https://solved.ac/profile/gksmdk)
-
-
----
-
-## 🌟 기타 정보  
-
-- **취미**: 음악 감상, 게임, 독서, 알고리즘 풀이
-- **관심사**: AI 기술, 클린 아키텍처, DevOps, 게임엔진 활용
-- **좌우명**: "기술의 발전과 나의 배움에는 끝이 없다."  
-
----
+* GitHub: https://github.com/ChaiTope
+* Baekjoon: https://www.acmicpc.net/user/gksmdk
+* solved.ac: https://solved.ac/profile/gksmdk
+* Email: [gksmdk5094@gmail.com](mailto:gksmdk5094@gmail.com)
